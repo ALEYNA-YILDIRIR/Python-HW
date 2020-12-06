@@ -1,0 +1,130 @@
+name1 = "ALEYNA YILDIRIR"
+name = input("Please enter your name:")
+
+if name == name1:
+    print("Welcome!")
+    MyCourses = {}
+    if len(MyCourses) < 3:
+        print("You must take at least 3 courses!")
+
+    course1 = input("Please enter a course name:")
+    print("Enter your grades!")
+    mid1 = int(input("Midterm Exam:"))
+    fin1 = int(input("Final:"))
+    pro1 = int(input("Project:"))
+    grade1 = mid1 * 0.3 + fin1 * 0.5 + pro1 * 0.2
+    print("Grade:", grade1)
+    if grade1 > 90:
+          print("AA")
+    elif 70 < grade1 < 90:
+          print("BB")
+    elif 50 < grade1 < 70:
+         print("CC")
+    elif 30 < grade1 < 50:
+         print("DD")
+    else:
+        print("FF:Failure")
+    MyCourses[course1] = grade1
+    print(MyCourses)
+
+
+    if len(MyCourses) < 3:
+        print("You must take at least 3 courses!")
+
+    course2 = input("Please enter a course name:")
+    print("Enter your grades!")
+    mid2 = int(input("Midterm Exam:"))
+    fin2 = int(input("Final:"))
+    pro2 = int(input("Project:"))
+    grade2 = mid2 * 0.3 + fin2 * 0.5 + pro2 * 0.2
+    print("Grade:", grade2)
+    if grade2 > 90:
+          print("AA")
+    elif 70 < grade2 < 90:
+          print("BB")
+    elif 50 < grade2 < 70:
+         print("CC")
+    elif 30 < grade2 < 50:
+         print("DD")
+    else:
+        print("FF:Failure")
+    MyCourses[course2] = grade2
+    print(MyCourses)
+
+
+    if len(MyCourses) < 3:
+        print("You must take at least 3 courses!")
+
+    course3 = input("Please enter a course name:")
+    print("Enter your grades!")
+    mid3 = int(input("Midterm Exam:"))
+    fin3 = int(input("Final:"))
+    pro3 = int(input("Project:"))
+    grade3 = mid3 * 0.3 + fin3 * 0.5 + pro3 * 0.2
+    print("Grade:", grade3)
+    if grade3 > 90:
+          print("AA")
+    elif 70 < grade3 < 90:
+          print("BB")
+    elif 50 < grade3 < 70:
+         print("CC")
+    elif 30 < grade3 < 50:
+         print("DD")
+    else:
+        print("FF:Failure")
+    MyCourses[course3] = grade3
+    print(MyCourses)
+
+
+    if len(MyCourses) < 3:
+        print("You must take at least 3 courses!")
+
+    course4 = input("Please enter a course name:")
+    print("Enter your grades!")
+    mid4 = int(input("Midterm Exam:"))
+    fin4 = int(input("Final:"))
+    pro4 = int(input("Project:"))
+    grade4 = mid4 * 0.3 + fin4 * 0.5 + pro4 * 0.2
+    print("Grade:", grade4)
+    if grade4 > 90:
+          print("AA")
+    elif 70 < grade4 < 90:
+          print("BB")
+    elif 50 < grade4 < 70:
+         print("CC")
+    elif 30 < grade4 < 50:
+         print("DD")
+    else:
+        print("FF:Failure")
+    MyCourses[course4] = grade4
+    print(MyCourses)
+
+
+    if len(MyCourses) < 3:
+        print("You must take at least 3 courses!")
+
+    course5 = input("Please enter a course name:")
+    print("Enter your grades!")
+    mid5 = int(input("Midterm Exam:"))
+    fin5 = int(input("Final:"))
+    pro5 = int(input("Project:"))
+    grade5 = mid5 * 0.3 + fin5 * 0.5 + pro5 * 0.2
+    print("Grade:", grade5)
+    if grade5 > 90:
+          print("AA")
+    elif 70 < grade5 < 90:
+          print("BB")
+    elif 50 < grade5 < 70:
+         print("CC")
+    elif 30 < grade5 < 50:
+         print("DD")
+    else:
+        print("FF:Failure")
+    MyCourses[course5] = grade5
+    print(MyCourses)
+
+    if len(MyCourses) == 5:
+        print("Maximum number of courses")
+
+else:
+    print("Try again!")
